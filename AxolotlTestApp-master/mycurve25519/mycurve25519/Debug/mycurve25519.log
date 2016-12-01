@@ -1,0 +1,186 @@
+﻿cl : Command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+  AssemblyInfo.cpp
+  Curve25519_Internal.cpp
+  compare.cpp
+  curve_sigs.cpp
+ed25519\additions\curve_sigs.cpp(12): warning C4101: 'ed_y': unreferenced local variable
+  sign_modified.cpp
+ed25519\additions\sign_modified.cpp(25): warning C4244: 'argument': conversion from 'unsigned __int64' to 'std::size_t', possible loss of data
+  zeroize.cpp
+  fe_0.cpp
+  fe_1.cpp
+  fe_add.cpp
+  fe_cmov.cpp
+  fe_copy.cpp
+  fe_frombytes.cpp
+ed25519\fe_frombytes.cpp(64): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(65): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(66): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(67): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(68): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(69): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(70): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(71): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(72): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_frombytes.cpp(73): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+  fe_invert.cpp
+  fe_isnegative.cpp
+  fe_isnonzero.cpp
+  fe_mul.cpp
+ed25519\fe_mul.cpp(244): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(245): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(246): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(247): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(248): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(249): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(250): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(251): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(252): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_mul.cpp(253): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+  fe_neg.cpp
+  fe_pow22523.cpp
+  fe_sq.cpp
+ed25519\fe_sq.cpp(140): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(141): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(142): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(143): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(144): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(145): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(146): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(147): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(148): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq.cpp(149): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+  fe_sq2.cpp
+ed25519\fe_sq2.cpp(151): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(152): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(153): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(154): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(155): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(156): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(157): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(158): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(159): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+ed25519\fe_sq2.cpp(160): warning C4244: '=': conversion from 'crypto_int64' to 'crypto_int32', possible loss of data
+  fe_sub.cpp
+  fe_tobytes.cpp
+  ge_add.cpp
+  ge_double_scalarmult.cpp
+  ge_frombytes.cpp
+  ge_madd.cpp
+  ge_msub.cpp
+  ge_p1p1_to_p2.cpp
+  ge_p1p1_to_p3.cpp
+  ge_p2_0.cpp
+  ge_p2_dbl.cpp
+  ge_p3_0.cpp
+  ge_p3_dbl.cpp
+  ge_p3_tobytes.cpp
+  ge_p3_to_cached.cpp
+  ge_p3_to_p2.cpp
+  ge_precomp_0.cpp
+  ge_scalarmult_base.cpp
+ed25519\ge_scalarmult_base.cpp(20): warning C4244: 'return': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+  ge_sub.cpp
+  ge_tobytes.cpp
+  blocks.cpp
+ed25519\nacl_sha512\blocks.cpp(21): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\blocks.cpp(22): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\blocks.cpp(23): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\blocks.cpp(24): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\blocks.cpp(25): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\blocks.cpp(26): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\blocks.cpp(27): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\blocks.cpp(28): warning C4244: '=': conversion from 'uint64' to 'unsigned char', possible loss of data
+  hash.cpp
+ed25519\nacl_sha512\hash.cpp(43): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+ed25519\nacl_sha512\hash.cpp(45): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(46): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(47): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(48): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(49): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(50): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(51): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(52): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(55): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+ed25519\nacl_sha512\hash.cpp(57): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(58): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(59): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(60): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(61): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(62): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(63): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+ed25519\nacl_sha512\hash.cpp(64): warning C4244: '=': conversion from 'unsigned __int64' to 'unsigned char', possible loss of data
+  open.cpp
+ed25519\open.cpp(32): warning C4244: 'argument': conversion from 'unsigned __int64' to 'std::size_t', possible loss of data
+ed25519\open.cpp(40): warning C4244: 'argument': conversion from 'unsigned __int64' to 'std::size_t', possible loss of data
+ed25519\open.cpp(48): warning C4244: 'argument': conversion from 'unsigned __int64' to 'std::size_t', possible loss of data
+  sc_muladd.cpp
+ed25519\sc_muladd.cpp(338): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(339): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(340): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(341): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(342): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(343): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(344): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(345): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(346): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(347): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(348): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(349): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(350): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(351): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(352): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(353): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(354): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(355): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(356): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(357): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(359): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(360): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(361): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(362): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(363): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(364): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(365): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(366): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(367): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_muladd.cpp(368): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+  sc_reduce.cpp
+ed25519\sc_reduce.cpp(245): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(246): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(247): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(248): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(249): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(250): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(251): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(252): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(253): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(254): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(255): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(256): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(257): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(258): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(259): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(260): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(261): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(262): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(263): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(264): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(266): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(267): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(268): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(269): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(270): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(271): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(272): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(273): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(274): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+ed25519\sc_reduce.cpp(275): warning C4244: '=': conversion from 'crypto_int64' to 'unsigned char', possible loss of data
+  sign.cpp
+ed25519\sign.cpp(28): warning C4244: 'argument': conversion from 'unsigned __int64' to 'std::size_t', possible loss of data
+  mycurve25519.cpp
+  pch.cpp
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+  AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  mycurve25519.vcxproj -> C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\Debug\mycurve25519.dll
+  mycurve25519.vcxproj -> C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\Debug\mycurve25519.pdb (Partial PDB)

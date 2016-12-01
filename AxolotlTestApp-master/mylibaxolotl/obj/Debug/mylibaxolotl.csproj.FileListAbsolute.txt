@@ -1,0 +1,13 @@
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\mylibaxolotl.dll
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\mylibaxolotl.pdb
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\Google.ProtocolBuffers.Serialization.dll
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\May.dll
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\mycurve25519.dll
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\Google.ProtocolBuffers.xml
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\Google.ProtocolBuffers.Serialization.xml
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\May.xml
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\bin\Debug\mycurve25519.pdb
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\obj\Debug\mylibaxolotl.dll
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\obj\Debug\mylibaxolotl.pdb
+C:\Users\Diego Perez Roca\Downloads\WhatsAppApi\AxolotlTestApp-master\mylibaxolotl\obj\Debug\mylibaxolotl.csprojResolveAssemblyReference.cache

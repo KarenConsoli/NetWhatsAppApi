@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WhatsTest.exe" version="1.0.0.2" publicKeyToken="e54107d3478fa51b" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WhatsTest" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="WhatsTest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.ProtocolBuffers.dll" size="323072">
+      <assemblyIdentity name="Google.ProtocolBuffers" version="2.4.1.555" publicKeyToken="55F7125234BEB589" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OkB9/rUoH/nUGk2xtJOaEIyZ+xCkyhbBXw8+IEB+3vo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="M2Mqtt.dll" size="56320">
+      <assemblyIdentity name="M2Mqtt" version="4.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pjlpgwhKN7yTW092SK7jvlCXgtUNG8tdlKlHJE5OGNk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="May.dll" size="22016">
+      <assemblyIdentity name="May" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Dr79zFFUwMZ8FtpVrL4NhwPiF0sQ0qZt3tQqhU9w7ec=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mycurve25519.dll" size="245248">
+      <assemblyIdentity name="mycurve25519" version="1.0.6051.17937" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ohTbMbND2cn9DQ+6W7ifP9GVuIAO7Czj2wnN37UptjA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mylibaxolotl.dll" size="208384">
+      <assemblyIdentity name="mylibaxolotl" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R69PQWmB3lR/tmQWhGHU0EImSTraTjegpp0zkhjat1I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WhatsAppApi.dll" size="145408">
+      <assemblyIdentity name="WhatsAppApi" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j6D5D9aBAMGT4U4vUecSfObZFqZwd08PbelvVx6moys=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WhatsTest.exe" size="14352">
+      <assemblyIdentity name="WhatsTest" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BDen0PjuUMc0j2ZHif2wAwekCWXGCf2d/n5XGiTTRQg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WhatsTest.exe.config" size="235">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bu9NCEoJtXSlJz7ahlkEVP0JVmESBsXj3lesf1mp7XU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-T6MRORS2QNO\Karen Consoli" issuerKeyHash="df0561b027202ab223c963d0d9b44ca4bda8aabf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CNi81b/5osVbdN/U++pj3SiU8lhpIiP7m7YEJmmW3bQ=</DigestValue></Reference></SignedInfo><SignatureValue>bKd0XvOUskVShvgiVYgDOrAYSRXKAfUKxE8Wmzg1tc1buE1kcf/aTbUMT3XCBrsQ4PYMESgfyzCpMZon2zd/3MZaQ/cWjGp/5ouqctgH/TM0kqRJD93cAO0DMMOIn6BPOQ3jYGcgwd+DFeY8NJjzMxK67YYGjQR5OUNYyAnJYmY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pDCuNH5JzhdPqaPRhGM4iw1mOiWHUOQhssr2mmHPBiDwgl0AsW6lwRbwmMz/vQgpo+zQZX1tRZWYBsy1sU+wXwXj+dOlU75edK15b2FMfU1r8D0oPcfs2UY9Wjzur+q+iJjn2iw6mlfuRYLsAD1iRjutdWcZ3FlXfqRUxQ5iv5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b4dd96692604b69bfb23226958f29428dd63eafbd4df745bc5a2f9bfd5bcd808" Description="" Url=""><as:assemblyIdentity name="WhatsTest.exe" version="1.0.0.2" publicKeyToken="e54107d3478fa51b" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-T6MRORS2QNO\Karen Consoli</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1YkSBViQgXoypysqbd6jWWwIUc/a/BAeUuWvW2I7HX8=</DigestValue></Reference></SignedInfo><SignatureValue>Z50IhhTTmgDaIIAN9Fu46vQKODkvgBd9UOvL6SbWNdnoTnrM+fFqqyTPGo81VKRjlNaQd9s4QxyEhh/n4HooW0WvdVQ/kKIBt0MQMCzu4Fh8iiWD+8tkn7ZYroxOjLzK04OTWVptBXmQnBvJUOhfCUxx+cEbn4vCCTMSmwINRXk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pDCuNH5JzhdPqaPRhGM4iw1mOiWHUOQhssr2mmHPBiDwgl0AsW6lwRbwmMz/vQgpo+zQZX1tRZWYBsy1sU+wXwXj+dOlU75edK15b2FMfU1r8D0oPcfs2UY9Wjzur+q+iJjn2iw6mlfuRYLsAD1iRjutdWcZ3FlXfqRUxQ5iv5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQWhGdmY3kV7NDz7CoB7wC2TANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoAVwBJAE4ALQBUADYATQBSAE8AUgBTADIAUQBOAE8AXABLAGEAcgBlAG4AIABDAG8AbgBzAG8AbABpMB4XDTE2MDcyNjExNTUxMVoXDTE3MDcyNjE3NTUxMVowRTFDMEEGA1UEAx46AFcASQBOAC0AVAA2AE0AUgBPAFIAUwAyAFEATgBPAFwASwBhAHIAZQBuACAAQwBvAG4AcwBvAGwAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApDCuNH5JzhdPqaPRhGM4iw1mOiWHUOQhssr2mmHPBiDwgl0AsW6lwRbwmMz/vQgpo+zQZX1tRZWYBsy1sU+wXwXj+dOlU75edK15b2FMfU1r8D0oPcfs2UY9Wjzur+q+iJjn2iw6mlfuRYLsAD1iRjutdWcZ3FlXfqRUxQ5iv5ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCLJu6OY8mcUSRKNrqMgA9xmHpwrqbK6R3Tlprr0U7Ow6yJNvfMiLxBlzx7bqmOwQSimSEyEef4TNjeFtth5tgxeqskWwWFMZ4i42+iqOBH2BpsP1fZWo1aU0Nh4g3lWVRnc3RZnanSoaAVPhNRrngM6APb8owOo6H8oFYlsgULfg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,8 @@
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.csprojResolveAssemblyReference.cache
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.frmForm.resources
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.frmAddUser.resources
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.frmLogin.resources
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.frmRegister.resources
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.frmUserChat.resources
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.Properties.Resources.resources
+C:\Users\Diego Perez Roca\Downloads\Chat-API-NET-master\Chat-API-NET-master\WhatsAppPort\obj\x86\Debug\WhatsAppPort.csproj.GenerateResource.Cache
